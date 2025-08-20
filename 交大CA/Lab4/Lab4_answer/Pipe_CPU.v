@@ -87,7 +87,7 @@ Instruction_Memory IM(
 );
 			
 Adder Add_pc(
-    .src1_i(pc_out_EX),     
+    .src1_i(pc_out),     
 	.src2_i(32'd4),
 	.sum_o(pc_add4)
 );
